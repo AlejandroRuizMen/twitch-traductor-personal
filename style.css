@@ -1,0 +1,25 @@
+.translated-msg {
+font-size: 12px;
+color: #00ffb3;
+margin-top: 2px;
+opacity: 0.85;
+}
+
+
+/* Si quieres usar el botón con CSS en vez de JS, estos estilos sirven */
+#translator-toggle {
+position: fixed;
+top: 80px;
+right: 20px;
+z-index: 99999;
+background: #9147ff;
+color: white;
+border: none;
+border-radius: 6px;
+padding: 6px 10px;
+cursor: pointer;
+font-size: 12px;
+}
+
+
+#translator-toggle:hover { opacity: 0.9; }

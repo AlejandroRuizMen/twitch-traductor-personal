@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Traductor Simple",
+  "version": "1.4",
+  "description": "Traduce el chat de Twitch al español",
+  "permissions": [],
+  "host_permissions": [
+    "https://translate.argosopentech.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
